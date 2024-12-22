@@ -84,7 +84,7 @@ def main():
 
     if uploaded_image1 and uploaded_image2:
         # Alpha slider
-        alpha = st.slider("Slide to observe changes", min_value=30, max_value=50, value=50)
+        alpha = st.slider("Slide to observe changes", min_value=30, max_value=70, value=50)
 
         fine_tune_button = st.button("Generate Merged Image")
         if fine_tune_button:

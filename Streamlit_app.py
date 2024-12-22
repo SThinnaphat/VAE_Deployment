@@ -9,10 +9,9 @@ from vae import VAE  # Ensure this points to your VAE model definition
 
 # Check for CUDA and set the device
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
-
 # Download model weights from Google Drive
 def download_model_weights():
-    model_url = "https://drive.google.com/uc?export=download&id=1bMapACVIpSZZitwDH0xpJT_eEXMOgmwl"  # Replace YOUR_FILE_ID with your actual file ID
+    model_url = "https://drive.google.com/uc?export=download&id=1cJUq3xdB_6gPdXnPUKVSryH9Sr1tAhhC"  # Replace YOUR_FILE_ID with your actual file ID
     model_path = "vae_finetuned2.ckpt"  # Set the file name for the model weights
     
     # Use gdown to download the model

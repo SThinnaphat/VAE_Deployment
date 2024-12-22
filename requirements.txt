@@ -3,3 +3,4 @@ gdown
 torch
 torchvision
 Pillow
+pytorch_lightning
